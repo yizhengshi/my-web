@@ -17,6 +17,8 @@ class Home extends React.Component {
       <Container className="wrapper">
         <Row className="row">
           <Col className="col-left">
+          <br></br>
+          <br></br>
             <Image
               className="image-prof"
               bsPrefix="border"
