@@ -48,7 +48,7 @@ class Home extends React.Component {
                 }
                 style={{ fontSize: "300%" , color: "#0077b5"}}
               />
-              &nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <TwitterOutlined
                 onClick={() =>
                   (window.location.href = "https://www.twitter.com/YS58888")
