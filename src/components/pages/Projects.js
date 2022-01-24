@@ -24,6 +24,7 @@ class Projects extends React.Component {
                     description="Used react.js, CSS, Javascripts, and ant design to mimic a Iphone calculator. Supports up to
                     10 digits of precision. Able to show the calculation procedure."
                     github="https://github.com/yizhengshi/simple-calculator"
+                    web ="https://yizhengshi.github.io/simple-calculator/"
                     />
                 <hr />
                 <ProjectOverview
@@ -38,6 +39,7 @@ class Projects extends React.Component {
                     year="2022"
                     description="Used React.js, Redux, antd, Jacascripts, and CSS to develop a food deliver app."
                     github="https://github.com/yizhengshi/food-delivery-web"
+                    web="https://yizhengshi.github.io/food-delivery-web/"
                     />
                 <hr />
                 <ProjectOverview
@@ -45,6 +47,7 @@ class Projects extends React.Component {
                     year="2022"
                     description="Web application for planning and visualizing daily activities by using redux, react.js, Javascripts."
                     github="https://github.com/yizhengshi/todolist"
+                    web="https://yizhengshi.github.io//todolist/"
                     />
                 <hr />
                 <ProjectOverview
@@ -52,6 +55,7 @@ class Projects extends React.Component {
                     year="2022"
                     description="This website is created by using react, antd, bootstrap.css, react-router, and github hosting."
                     github="https://github.com/yizhengshi/yizhengshi.github.io"
+                    web="https://yizhengshi.github.io/my-web/#/"
                     />
             </Container> 
         );

@@ -14,6 +14,14 @@ class ProjectOverview extends React.Component {
         >
           See on GitHub
         </Button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <Button
+          className="project-button"
+          target="_blank"
+          href={this.props.web}
+        >
+          See on Web
+        </Button>
       </div>
     );
   };
