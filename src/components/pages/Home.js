@@ -28,7 +28,7 @@ class Home extends React.Component {
           </Col>
           <Col className="col-right" xs={6}>
             <div className="desc-container">
-              <div className="desc-head">Hi, I'm Yizheng Shi.</div>
+              <div className="desc-head">Hi, I'm Yizheng Shi</div>
               <div className="desc-text">Sophomore CS student @ UW-Madison</div>
             </div>
             <div className="links-container">
