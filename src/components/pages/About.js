@@ -26,7 +26,7 @@ class About extends React.Component {
                             and fan of the Brooklyn Nets basketball team. 
                         </div>
                     </Col>
-                    <Col className="abt-right-col" xs={3}>
+                    <Col className="abt-right-col" xs={4}>
                         <Image
                             className="image-abt"
                             src={require("../../assets/images/about.jpg")}
