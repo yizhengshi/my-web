@@ -1,0 +1,125 @@
+.projects-header {
+    margin-top: 2vh;
+    font-size: 2.4vw;
+}
+
+.projects-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 7px #777;
+    width: 50vw;
+    border-radius: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    margin-top: 5vh;
+}
+
+.project-overview {
+    margin-top: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+.project-title {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.project-year {
+    font-size: 1.2vw;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.project-description {
+    font-size: 1.0vw;
+    width: 75%;
+}
+
+.project-button {
+    font-size: 1.0vw;
+    background-color: #5277f1;
+    border-color: #3277F1;
+}
+
+@media only screen and (max-width: 1024px) {
+    .projects-container {
+        width: 70vw;
+    }
+    .projects-header {
+        font-size: 4.8vw;
+    }
+    .project-title {
+        font-size: 2.4vw;
+        font-weight: bold;
+    }
+    
+    .project-year {
+        font-size: 2.4vw;
+    }
+    .project-description {
+        font-size: 2.0vw;
+    }
+
+    .project-button {
+        font-size: 2.0vw;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .projects-container {
+        width: 80vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        border-radius: 2vw;
+    }
+    .projects-header {
+        font-size: 7.2vw;
+        margin-top: 1.0vh;
+    }
+    .project-title {
+        font-size: 3.6vw;
+        font-weight: bold;
+    }
+    
+    .project-year {
+        font-size: 3.6vw;
+    }
+    .project-description {
+        font-size: 3.0vw;
+    }
+
+    .project-button {
+        font-size: 3.0vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .projects-container {
+        width: 80vw;
+    }
+    .projects-header {
+        font-size: 8.0vw;
+    }
+    .project-title {
+        font-size: 4.2vw;
+        font-weight: bold;
+    }
+    .project-year {
+        font-size: 4.2vw;
+    }
+    .project-description {
+        font-size: 3.5vw;
+    }
+    .project-button {
+        font-size: 3.5vw;
+    }
+}

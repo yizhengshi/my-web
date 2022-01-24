@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import {HashRouter} from 'react-router-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './components/app/App';
+import './components/pages/styles/home.css';
+import './components/pages/styles/about.css';
+import './components/pages/styles/projects.css';
+import './components/layout/styles/topnavbar.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render((
+        <HashRouter basename={process.env.PUBLIC_URL}>
+            <App />
+        </HashRouter>
+    ), document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

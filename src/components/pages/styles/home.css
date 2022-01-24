@@ -1,0 +1,164 @@
+.wrapper {
+    background-color: #FFFFFF;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 3px 7px #777;
+    width: 50vw;
+    border-radius: 1vw;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.row {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-left {
+    margin-left: 10%;
+}
+
+.col-right {
+    margin-right: 7%;
+}
+
+.desc-container {
+    padding-top: 20%;
+}
+
+.desc-head {
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+.desc-text {
+    font-size: 1.44vw;
+}
+
+.image-prof {
+    max-height: 90%;
+    margin-top: 5%;
+    max-width: 90%;
+}
+
+.links-container {
+    margin-top: 5%;
+}
+
+.email {
+    color: #5277f1;
+}
+
+.github {
+    color: #211F1F;
+}
+
+.linkedin {
+    color: #0e76a8
+}
+
+.github-home {
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 80vw;
+    }
+    .desc-head {
+        font-size: 18px
+    }
+    .desc-text {
+        font-size: 14px;
+    }
+    .fa-3x {
+        font-size: 2em;
+    }
+    .image-prof {
+        margin-top: 12%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .desc-head {
+        font-size: 16px
+    }
+    .desc-text {
+        font-size: 12px;
+    }
+    .fa-3x {
+        font-size: 1.8em;
+    }
+    .wrapper {
+        width: 70vw;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .image-prof {
+        margin-top: 0;
+        margin-left: 25%;
+        width: 50%;
+    }
+    .col-left {
+        margin-left: 0;
+    }
+    .col-right {
+        max-width: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .desc-container {
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .wrapper {
+        border-radius: 2vw;
+    }
+    .desc-head {
+        font-size: 11px
+    }
+    .desc-text {
+        font-size: 9px;
+    }
+    .fa-3x {
+        font-size: 1.2em;
+    }
+}
