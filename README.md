@@ -265,27 +265,3 @@ Note: I specified the avatars using HTML because, when I did so using Markdown,
       By using HTML, I can force _both_ types to appear at 40px squared.
 
 -->
-
-<a href="https://github.com/gitname" target="_blank" title="gitname">
-  <img src="https://github.com/gitname.png?size=40" height="40" width="40" alt="gitname" />
-</a>
-<a href="https://github.com/rhulse" target="_blank" title="rhulse">
-  <img src="https://github.com/rhulse.png?size=40" height="40" width="40" alt="rhulse" />
-</a>
-<a href="https://github.com/AbhishekCode" target="_blank" title="AbhishekCode">
-  <img src="https://github.com/AbhishekCode.png?size=40" height="40" width="40" alt="AbhishekCode" />
-</a>
-<a href="https://github.com/adnjoo" target="_blank" title="adnjoo">
-  <img src="https://github.com/adnjoo.png?size=40" height="40" width="40" alt="adnjoo" />
-</a>
-<a href="https://github.com/thebeatlesphan" target="_blank" title="thebeatlesphan">
-  <img src="https://github.com/thebeatlesphan.png?size=40" height="40" width="40" alt="thebeatlesphan" />
-</a>
-<a href="https://github.com/valerio-pescatori" target="_blank" title="valerio-pescatori">
-  <img src="https://github.com/valerio-pescatori.png?size=40" height="40" width="40" alt="valerio-pescatori" />
-</a>
-<a href="https://github.com/jackweyhrich" target="_blank" title="jackweyhrich">
-  <img src="https://github.com/jackweyhrich.png?size=40" height="40" width="40" alt="jackweyhrich" />
-</a>
-
-This list is maintained manually—for now—and includes (a) each person who submitted a pull request that was eventually merged into `master`, and (b) each person who contributed in a different way (e.g. providing constructive feedback) and who approved of me including them in this list.
