@@ -12,18 +12,17 @@ class About extends React.Component {
                 <Row style={{marginTop: 0, paddingBottom: 0}}>
                     <Col className="abt-left-col" xs={8}>
                         <div className="about-text p1"> 
-                            Hey, I'm Yizheng Shi, a sophomore  pursuing a Bachelor's
-                            degree in computer science and data science
-                            at University of Wisconsin-Madison.
+                            Hey, I'm Yizheng Shi, pursuing Master of Science
+                            in Computer Science degree at Yale University.
                         </div> 
                         <div className="about-text px">
                             I am currently interested in working with
-                            full-stack development, machine learning, artificial intelligence, and
-                            Human-Computer Interface. Aside from these topics, 
+                            full-stack development, AI,
+                            Database management, and Operating System. Aside from these topics, 
                             I am open to learning about other computer science 
                             skills. Outside of work, I am an amateur photographer, 
-                             video game enthusiast, web developer,
-                            and fan of the Brooklyn Nets basketball team. 
+                            video game enthusiast, web developer,
+                            and fan of LEGO. 
                         </div>
                     </Col>
                     <Col className="abt-right-col" xs={4}>
