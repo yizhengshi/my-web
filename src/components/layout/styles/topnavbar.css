@@ -1,4 +1,13 @@
 .nav-top {
     background: #5277f1;
-    box-shadow: 0 0 10px #D8D8D8;
+    box-shadow: 5px 10px 10px #0936eba0;
+}
+
+
+/* In your CSS file or style tag */
+.hoverLink:hover {
+    /* Define the styles you want to apply when the link is hovered */
+    /* For example, changing the text color and adding an underline */
+    color: blue;
+    text-decoration: underline;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Button, Image } from "react-bootstrap";
 
-class ProjectOverview extends React.Component {
+class ExperienceOverview extends React.Component {
   getButtons = () => {
     if (this.props.github) {
     //     if (this.props.course) {
@@ -32,7 +32,11 @@ class ProjectOverview extends React.Component {
       <Container className="project-overview">
         <div className="project-row space-between">
           <div className="project-title">{this.props.title}</div>
-          <div className="project-year">{this.props.year}</div>
+          <div className="project-location">{this.props.year}</div>
+        </div>
+        <div className="project-row space-between">
+          <div className="project-position">{this.props.position}</div>
+          <div className="project-location">{this.props.location}</div>
         </div>
         <div className="project-row space-between" style={{ marginTop: "1vh" }}>
         <div className="project-description">{this.props.description}</div>
@@ -42,10 +46,9 @@ class ProjectOverview extends React.Component {
           &nbsp;
           <div className="project-techbold">{this.props.tech}</div>
         </div>
-        {this.getButtons()}
       </Container>
     );
   }
 }
 
-export default ProjectOverview;
+export default ExperienceOverview;

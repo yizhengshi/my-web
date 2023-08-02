@@ -1,12 +1,12 @@
 .projects-header {
-    margin-top: 2vh;
-    font-size: 2.4vw;
+    margin-top: 0.3vh;
+    font-size: 1.8vw;
 }
 
 .projects-container {
     background-color: #FFFFFF;
     box-shadow: 0 3px 7px #777;
-    width: 50vw;
+    width: 60vw;
     border-radius: 1vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
@@ -21,13 +21,38 @@
     padding-bottom: 1.5vh;
 }
 
+.project-tech {
+    font-size: 1vw;
+    /* font-style: italic; */
+}
+.project-techbold{
+    font-size: 1vw;
+    font-weight: bold;
+    /* font-style: italic; */
+
+}
+.project-techword {
+    font-size: 1vw;
+    /* font-style: italic; */
+    font-weight: bold;
+}
+
 .project-title {
     font-size: 1.2vw;
     font-weight: bold;
 }
+.project-position {
+    font-size: 1vw;
+    font-style: italic;
+    font-weight: bold;
+}
+.project-location {
+    font-size: 1vw;
+    font-style: italic;
+}
 
 .project-year {
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 .project-row {
@@ -39,9 +64,11 @@
     justify-content: space-between;
 }
 
+
+
 .project-description {
     font-size: 1.0vw;
-    width: 75%;
+    width: 100%;
 }
 
 .project-button {

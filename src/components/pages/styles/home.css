@@ -73,7 +73,12 @@
 }
 
 .links-container {
-    margin-top: 5%;
+    margin-top: 4%;
+    justify-content: space-between;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .email {

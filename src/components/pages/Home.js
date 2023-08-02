@@ -28,7 +28,7 @@ class Home extends React.Component {
           </Col>
           <Col className="col-right" xs={6}>
             <div className="desc-container">
-              <div className="desc-head">Welcome, I'm Yizheng Shi</div>
+              <div className="desc-head">Hi, I'm Yizheng Shi</div>
               <div className="desc-text">MS in Computer Science @ Yale University</div>
             </div>
             <div className="links-container">
@@ -40,7 +40,7 @@ class Home extends React.Component {
                 }
                 style={{ fontSize: "300%" }}
               />
-              &nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <LinkedinOutlined
                 onClick={() =>
                   (window.location.href =
@@ -48,8 +48,8 @@ class Home extends React.Component {
                 }
                 style={{ fontSize: "300%" , color: "#0077b5"}}
               />
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              <TwitterOutlined
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <TwitterOutlined 
                 onClick={() =>
                   (window.location.href = "https://www.twitter.com/YS58888")
                 }
